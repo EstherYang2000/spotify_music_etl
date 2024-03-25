@@ -5,9 +5,7 @@ from lib.config_helper import IACConfigHelper
 import argparse
 import json
 
-CLIENT_ID = '919292fc0efb43499d1e020fe7d0c699'
-CLIENT_SECRET = 'b07635e209f340debabbbd55d0b4b83d'
-REDIRECT_URI = 'http://localhost:8888'
+
 
 
 def spotify_auth(client_id:str,client_secret:str,redirect_uri:str,scope=None)->spotipy.Spotify:
